@@ -30,6 +30,10 @@ Did you ran slither? Aderyn? or any other static analysis tool? They can help a 
     - ERC777 tokens (reentrancy)
     - Fee on transfer tokens
     - Blacklisted tokens
+    - The from and to balances are fetched and cached, then updated via `_setBalance()`. Should a user
+      do an asset self-transfer such that `from == to` with a specified amount, there would be fund duplication where his
+      balance would increase by amount.
+    - use the _withdraw() and _deposit() methods
    
 7 - Price Manipulation
     - 
