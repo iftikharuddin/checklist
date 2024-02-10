@@ -260,7 +260,12 @@ While the problem is with the legacy optimizer, it is still correct to enforce l
 - Read only reentrancy
     
 - use of strict euality (!= , == ) should always be avoided in funds equations specially.
-    - use >= or <=    
+    - use >= or <=   
+    
+- Emit events before external calls
+    - Wherever possible, consider emitting events before external calls. In case of reentrancy, funds are not at risk (for external call + event ordering), however emitting events after external calls can damage frontends and monitoring tools in case of reentrancy attacks.
+      
+ 
 ## IERC20 Issues
 
 - Medium - Unsafe use of transfer() with IERC20
