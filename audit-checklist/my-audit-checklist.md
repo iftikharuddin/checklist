@@ -151,6 +151,10 @@ ref https://cll-devrel.gitbook.io/ccip-masterclass-2/ccip-masterclass/exercise-1
 
 ## Do Not Miss These 5 Upgradeability Vulnerabilities
 
+- Always initialize the state variables in initialize()
+    - ( https://cantina.xyz/code/a83eaf73-9cbc-495f-8607-e55d4fdaf407/findings/8cabcdf0-3510-4714-bea1-3e9a3ad6bcf2 )
+    - func https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable#avoid-initial-values-in-field-declarations
+
 - Storage Gaps
     - Storage collisions
     - Ownable Upgradable
