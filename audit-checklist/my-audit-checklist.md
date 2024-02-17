@@ -279,6 +279,12 @@ While the problem is with the legacy optimizer, it is still correct to enforce l
     - Description: Some ERC20 tokens do not work when changing the allowance from an existing non-zero allowance value. For example Tether (USDT)'s approve() function will revert if the current approval is not zero, to protect against front-running changes of approvals.	    
     - Solution: Set the allowance to zero before increasing the allowance and use safeApprove/safeIncreaseAllowance.
 
+## ERC721
+- Before minting, if the `to` address is a smart contract, perform the `onERC721Receivercall` 
+    - and check if the return value matches the magic IERC721.onERC721Received.selector value. See OpenZeppelin docs for more information.
+    - ref https://docs.openzeppelin.com/contracts/5.x/api/token/erc721#IERC721Receiver-onERC721Received-address-address-uint256-bytes-
+
+
 ## AMM
 
 - Why You Should Stop Using block.timestamp as Deadline in Swaps
