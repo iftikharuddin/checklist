@@ -282,7 +282,7 @@ While the problem is with the legacy optimizer, it is still correct to enforce l
 ## ERC721
 - Before minting, if the `to` address is a smart contract, perform the `onERC721Receivercall` 
     - and check if the return value matches the magic IERC721.onERC721Received.selector value. See OpenZeppelin docs for more information.
-    - ref https://docs.openzeppelin.com/contracts/5.x/api/token/erc721#IERC721Receiver-onERC721Received-address-address-uint256-bytes-
+    - ref: https://docs.openzeppelin.com/contracts/5.x/api/token/erc721#IERC721Receiver-onERC721Received-address-address-uint256-bytes-
 
 
 ## AMM
