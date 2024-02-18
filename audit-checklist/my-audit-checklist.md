@@ -306,3 +306,8 @@ While the problem is with the legacy optimizer, it is still correct to enforce l
 
 - #-5: Waste of gas due to passing 0x00 as calldata
     - the contract passes "0x00". In fact, this would correspond to 4 non-zero bytes which cost gas as they are part of the calldata. It is recommended to pass "" unless there is a specific reason to do so.
+    
+## Gauges, Voting, Gov
+- quick vote and withdraw voting strategy
+    - 1. Implementing a weighted stake, with weight decreasing over time, or
+    - 2. Implementing a locking period after the weight update
