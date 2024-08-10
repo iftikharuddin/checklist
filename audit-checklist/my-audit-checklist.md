@@ -187,7 +187,7 @@ ref https://github.com/ComposableSecurity/SCSVS/blob/master/2.0/0x200-Components
 
 - Verify that the protocol uses solidity-examples package to import LayerZero contracts and does not copy-paste them directly from the repository.
 - LZ audit to check: https://github.com/pashov/audits/blob/master/team/md/HoneyJar-security-review.md
-
+- https://github.com/pashov/audits/blob/master/team/md/IonProtocol-security-review-July.md
 ref https://github.com/ComposableSecurity/SCSVS/blob/master/2.0/0x300-Integrations/0x304-I4-Cross-Chain.md 
 
 - Should expose the proposed time in function getFailedDeposits #281 (Cantina)
