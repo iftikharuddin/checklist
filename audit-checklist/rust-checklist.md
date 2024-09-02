@@ -1,6 +1,6 @@
 # Rust and Substrate Security Checklist
 
-| ✅ | Issue Summary | Recommendation |
+| ✅ | Issue Title | Summary / Recommendation |
 |----|---------------|----------------|
 |    | **Overflow/Underflow Protection** | Substrate lacks default overflow/underflow protection, which can lead to potential bugs in math operations, especially when `total < threshold`, risking an underflow during proposal rejections. | To prevent these bugs, use safe math functions like `checked_add()` and `checked_sub()` for all arithmetic operations. |
 |    | **Signer Check** | Verify that the right parties have signed a transaction. | Signed and secure. Use Anchor's `Signer<'info>` type. |
