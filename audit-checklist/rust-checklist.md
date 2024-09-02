@@ -11,6 +11,8 @@
 |    | **Reinitialization and Revival Attacks** | - Avoid re-initializing an already initialized account. <br> - Avoid using an already closed account. | Validate initialization states to prevent these issues. |
 |    | **Other Issues** | - Verify account data type to avoid type spoofing. <br> - Use a canonical bump to avoid multiple valid PDAs. <br> - Do not use shared/global PDA authorities; use account-specific PDAs instead. | Implement these best practices for secure account management. |
 |    | **Check Rounding Direction** | In Rust, there are several ways to round floating-point numbers: <br> - `round()`: rounds either up or down. <br> - `ceil()`: rounds up. <br> - `floor()`: rounds down. | Double-check the direction to ensure the intended rounding behavior. |
+|    | **Order of operations** | Dividing before multiplying can lead to precision loss. | Always ensure to check the order of operations. |
+
 
 ## References
 - [Video: Secure Coding Practices](https://youtu.be/Qkf9QwSfHAM?list=PLzUrW5H8-hDev3XOSY-Wqzb6O2wwn3I43)
