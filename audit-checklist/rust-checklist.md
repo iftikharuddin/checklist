@@ -30,3 +30,7 @@ verify that an account is owned by expected program
 Secure. Usse Anchor's Account<'info, T> type that checks the owner
 ____
 
+** Arbitrary CPI (Cross Program Invocation)**
+Verify that the target program you want to invoke has correct address
+
+____
