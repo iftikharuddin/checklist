@@ -17,3 +17,7 @@
 ## References
 - [Video: Secure Coding Practices](https://youtu.be/Qkf9QwSfHAM?list=PLzUrW5H8-hDev3XOSY-Wqzb6O2wwn3I43)
 - [Video: Rust Security - Foundations](https://youtu.be/q7yjmhxyvc0)
+
+## More resources
+- https://exvul.com/rust-smart-contract-security-guide-in-solana/
+- https://github.com/0xsanny/solsec 
