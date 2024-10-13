@@ -195,7 +195,8 @@ ref https://github.com/ComposableSecurity/SCSVS/blob/master/2.0/0x300-Integratio
 - Avalanche, Celo, and zkSync Era don't support TSTORE and TLOAD opcodes 
     - [Ref finding](https://cantina.xyz/code/e2cf6906-ec8b-4c78-a585-74ac90615659/findings/174)      
 
-     
+- block.gaslimit doesn't represent the actual gas limit on Arbitrum and ZkSync
+    - [Ref finding](https://cantina.xyz/code/e2cf6906-ec8b-4c78-a585-74ac90615659/findings/38)     
 
 ## Extra known issues
 - [H-1]: Arbitrary from passed to transferFrom (or safeTransferFrom)
