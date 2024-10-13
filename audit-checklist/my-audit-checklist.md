@@ -76,8 +76,8 @@ Lending & Borrowing DeFi platforms display common sets of vulnerabilities
 - Repayment Sent to Zero Address e.g [Issue](https://github.com/sherlock-audit/2023-01-cooler-judging/issues/33)
 - Borrower Permanently Unable To Repay Loan e.g [Issue](https://github.com/sherlock-audit/2022-10-union-finance-judging/issues/133)
 - Borrower Repayment Only Partially Credited e.g [Issue](https://github.com/sherlock-audit/2022-10-astaria-judging/issues/190)
-
-
+- address collisions using create2 [Issue](https://cantina.xyz/code/e2cf6906-ec8b-4c78-a585-74ac90615659/findings/206)
+    - also makerdao-endgame [disussion](https://github.com/sherlock-audit/2024-06-makerdao-endgame-judging/issues/64)
 Credits and thanks to: [Dacian](https://dacian.me/) & [mixbytes](https://mixbytes.io/blog/vulnerable-spots-of-lending-protocols)
 
 ## Chainlink CCIP
