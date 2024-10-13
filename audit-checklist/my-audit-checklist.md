@@ -192,7 +192,9 @@ ref https://github.com/ComposableSecurity/SCSVS/blob/master/2.0/0x300-Integratio
 
 - Should expose the proposed time in function getFailedDeposits #281 (Cantina)
     - the function should also expose failed deposit proposed time to inform external integration the proposed time and whether the failed deposit is ready for rescue or dispute
-      
+- Avalanche, Celo, and zkSync Era don't support TSTORE and TLOAD opcodes 
+    - [Ref finding](https://cantina.xyz/code/e2cf6906-ec8b-4c78-a585-74ac90615659/findings/174)      
+
      
 
 ## Extra known issues
