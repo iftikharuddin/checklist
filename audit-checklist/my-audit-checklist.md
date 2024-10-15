@@ -57,7 +57,13 @@ Did you ran slither? Aderyn? or any other static analysis tool? They can help a 
     - Inflation attack ( relaying on balanceOf )
     
 13 - Flash loans
+
+## Math
+- 5.1.4 Upcast and only use multiplication to avoid overflows and imprecision [L]
+    Refs: 
     
+        - https://docs.omni.network/spearbit-solidity.pdf
+        - https://github.com/omni-network/omni/commit/ae390993a01a8c2ded25bdf4c85873f1a1ac5cda#diff-022e462bc90292333b6d1ea3f151c55e787897a8746268ddc254c323d54ac17fR60
     
 ## Lending/Borrowing DeFi Attacks
  
