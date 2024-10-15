@@ -58,6 +58,10 @@ Did you ran slither? Aderyn? or any other static analysis tool? They can help a 
     
 13 - Flash loans
 
+14 - Gas Griefing Execution With Return Bombs in .call{}
+
+    - ref (OMP-09 Gas Griefing XMsg Execution With Return Bombs) https://docs.omni.network/sigma-prime-chain.pdf
+
 ## Math
 - 5.1.4 Upcast and only use multiplication to avoid overflows and imprecision [L]
     Refs: 
