@@ -118,6 +118,20 @@ ref https://cll-devrel.gitbook.io/ccip-masterclass-2/ccip-masterclass/exercise-1
     - An attacker could exploit the difference between the price reported by an oracle and the asset's actual price to gain a profit by front-running the oracle's price update.
     - Consider implementing a borrowing fee to mitigate against arbitrage opportunities. Ideally, this fee would be larger than the oracle's maximum price deviation so that it is not possible to profit from arbitrage.
        
+Must check articles / case studies when auditing oracles :)
+
+| Title | Link |
+|--------|------|
+| TWAP Oracles For Auditors | [Link](https://33audits.hashnode.dev/twap-oracles-for-auditors) |
+| Inverse TWAP Prices | [Link](https://blog.yacademy.dev/2024-05-24-are-inverse-TWAP-prices-inaccurate/) |
+| Oracles, Entropy & Chainlink VRF Integration | [Link](https://officercia.mirror.xyz/vUsNhI6GZhXWabifqFZqNmB93Fr0zsfIpCKBZEeEB7E) |
+| Chainlink Oracle Security Considerations | [Link](https://medium.com/cyfrin/chainlink-oracle-defi-attacks-93b6cb6541bf) |
+| Top 10 Security Tips for Chainlink Oracles | [Link](https://www.saxenism.com/blog/chainlink-interaction-security) |
+| Chainlink VRF Secure Integration Tips | [Link](https://officercia.mirror.xyz/ekYLAK6uZl2fNCCzAL0eCTtImBD8fSdTurM0duryoxU) |
+| The Dangers of Price Oracles - OpenZeppelin | [Link](https://blog.openzeppelin.com/secure-smart-contract-guidelines-the-dangers-of-price-oracles) |
+| How Chainlink Price Feeds Work - RareSkills | [Link](https://www.rareskills.io/post/chainlink-price-feed-contract) |
+| TWAP Oracle in Uniswap v2 - RareSkills | [Link](https://www.rareskills.io/post/twap-uniswap-v2) |
+| Uniswap V4: Oracle hook with malicious owner | [Link](https://composable-security.com/blog/) |
 
 ### Chainlink Oracle Security Considerations
 
@@ -125,7 +139,7 @@ ref https://cll-devrel.gitbook.io/ccip-masterclass-2/ccip-masterclass/exercise-1
 - Not Checking For Down L2 Sequencer e.g [Issue](https://github.com/Cyfrin/2023-07-foundry-defi-stablecoin/issues/1046)
 - Unhandled Oracle Revert Denial Of Service
 
-### [](https://www.beirao.xyz/blog/Security-checklist#vault)Vault
+### [Vault](https://www.beirao.xyz/blog/Security-checklist#vault)
 
 [V-01] - Can transferring ERC20 or ETH directly break something ?
 
